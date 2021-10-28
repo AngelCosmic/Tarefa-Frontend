@@ -1,7 +1,10 @@
 import axios from 'axios'
+import dotenv from 'dotenv';
+
+dotenv.config();
  
 const api = axios.create({
-    baseURL: 'https://tarefa-backend1.herokuapp.com'
+    baseURL: "https://aluno-backend1.herokuapp.com/"
 
 })
  
